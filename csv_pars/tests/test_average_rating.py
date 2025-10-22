@@ -44,5 +44,6 @@ def test_average_rating_sorting(sample_all_data, capsys):
     # print('B:', brand_b_index)
     # print('A:', brand_a_index)
 
-    # BrandC должен быть выше BrandB, BrandB выше BrandA
+    # BrandA должен быть выше BrandB, BrandB выше BrandC
     assert brand_a_index < brand_b_index < brand_c_index
+
